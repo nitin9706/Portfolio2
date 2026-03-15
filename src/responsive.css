@@ -1,0 +1,25 @@
+@media only screen and (max-width: 400px) {
+  .section1 {
+    height: 90vh;
+background-color: black;
+  }
+  .navbar {
+    display: none;
+  }
+  .section_text {
+    height: 300px;
+    width: 100%;
+  }
+  .section_text h1 {
+    font-size: 41px;
+  }
+  .section_text h3 {
+    font-size: 15px;
+  }
+  .section_text .text2 {
+    display: none;
+  }
+  .button a {
+    padding: 10px;
+  }
+}

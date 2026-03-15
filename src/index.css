@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+}
+.main {
+  background: url("/src/assets/section1_bg2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#Font1 {
+  font-family: "Gravitas One", serif;
+}
+#Font2 {
+  font-family: "Archivo Black", sans-serif;
+}
+.outline-custom1 {
+  -webkit-text-stroke: 1px black;
+}
+
+#BCGIMG {
+  background: linear-gradient(transparent, rgba(249, 255, 202, 1));
+}
+span {
+  display: inline-block;
+}
