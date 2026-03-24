@@ -33,7 +33,7 @@ const Section1 = () => {
   );
 
   return (
-    <div className="h-screen flex justify-center items-center flex-col pb-50 section1">
+    <div className="h-screen flex justify-center items-center flex-col section1">
       <div
         className="flex justify-center items-center flex-col mb-20 section_text max-sm:mb-80"
         ref={TextRef}
@@ -79,7 +79,7 @@ const Section1 = () => {
       </div>
 
       <div
-        className="z-20 absolute bottom-0 flex gap-5 pb-30 w-full justify-center button max-sm:px-4 max-sm:pb-20"
+        className="z-10 absolute bottom-0 flex gap-5 pb-30 w-full justify-center button max-sm:px-4 max-sm:pb-20"
         id="BCGIMG"
       >
         <a className=" p-4 rounded bg-black text-white cursor-pointer active:scale-95 max-sm:p-3">
