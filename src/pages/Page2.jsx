@@ -2,6 +2,12 @@ import { useGSAP } from "@gsap/react";
 import gsap, { Linear } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import React, { useRef } from "react";
+import IMG1 from "../assets/html.png";
+import IMG2 from "../assets/css.png";
+import IMG3 from "../assets/js.png";
+import IMG4 from "../assets/react.png";
+import IMG5 from "../assets/Linux.png";
+import IMG6 from "../assets/tailwind.png";
 const Page2 = () => {
   gsap.registerPlugin(ScrollTrigger);
   const SurfRef = useRef();
@@ -106,60 +112,36 @@ const Page2 = () => {
               <div className="flex  justify-between w-[70%] ">
                 <div className="flex flex-col justify-center items-center gap-2">
                   {" "}
-                  <img
-                    src="/src/assets/tailwind.png"
-                    alt=""
-                    className="h-20 bg-center bg-cover"
-                  />
+                  <img src={IMG6} alt="" className="h-20 bg-center bg-cover" />
                   <h1>Tailwind</h1>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
                   {" "}
-                  <img
-                    src="/src/assets/react.png"
-                    alt=""
-                    className="h-20 bg-center bg-cover"
-                  />
+                  <img src={IMG4} alt="" className="h-20 bg-center bg-cover" />
                   <h1>REACT JS</h1>
                 </div>
               </div>
               <div className="flex  justify-between w-[70%]">
                 <div className="flex flex-col justify-center items-center gap-2">
                   {" "}
-                  <img
-                    src="/src/assets/HTML.png"
-                    alt=""
-                    className="h-20 bg-center bg-cover"
-                  />
+                  <img src={IMG1} alt="" className="h-20 bg-center bg-cover" />
                   <h1>HTML</h1>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
                   {" "}
-                  <img
-                    src="/src/assets/CSS.png"
-                    alt=""
-                    className="h-20 bg-center bg-cover"
-                  />
+                  <img src={IMG2} alt="" className="h-20 bg-center bg-cover" />
                   <h1>CSS</h1>
                 </div>
               </div>
               <div className="flex  justify-between w-[70%]">
                 <div className="flex flex-col justify-center items-center gap-2">
                   {" "}
-                  <img
-                    src="/src/assets/JS.png"
-                    alt=""
-                    className="h-20 bg-center bg-cover"
-                  />
+                  <img src={IMG3} alt="" className="h-20 bg-center bg-cover" />
                   <h1>JavaScript</h1>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2">
                   {" "}
-                  <img
-                    src="/src/assets/linux.png"
-                    alt=""
-                    className="h-20 bg-center bg-cover"
-                  />
+                  <img src={IMG5} alt="" className="h-20 bg-center bg-cover" />
                   <h1>Linux</h1>
                 </div>
               </div>
